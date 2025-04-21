@@ -39,6 +39,7 @@ body {
     text-decoration: none;
     padding: 5px 10px;
     border-radius: 5px;
+
   }
   
   nav ul li input[type="search"] {
@@ -206,6 +207,7 @@ body {
   }
   
   footer input[type="email"] {
+    width: 200px;
     padding: 5px;
     border-radius: 5px;
     border: none;
