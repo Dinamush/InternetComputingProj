@@ -15,6 +15,16 @@ header {
     padding: 10px 20px;
 }
 
+.btnn{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #2b4d8b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;}
+  
 h2{
     color: white;
 }
@@ -68,7 +78,7 @@ nav ul li input[type="search"] {
     color: white;
 }
 
-.welcome-text .btn {
+.welcome-text .btnn {
     display: inline-block;
     padding: 10px 20px;
     background-color: #2b4d8b;
@@ -159,7 +169,7 @@ nav ul li input[type="search"] {
     border-radius: 10px;
 }
 
-.syllabus-box .btn {
+.syllabus-box .btnn {
     margin-top: 10px;
     background-color: #2b4d8b;
     color: white;
@@ -630,6 +640,109 @@ footer button {
 .explore:hover {
     cursor: pointer;
 }
+
+
+/* grade levels css*/
+
+  .grade-description {
+    background-color: #658cc2;
+    padding: 30px 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    text-align: left; 
+  }
+  
+  .grade-description h1,
+  .grade-description p {
+    margin-left: 0;
+    max-width: none;
+    color: white;
+  }
+  
+  
+  .grade-header h1 {
+    color: white;
+    font-size: 2.5rem;
+  }
+  
+  .grade-header p {
+    color: #f0f0f0;
+    font-size: 1.1rem;
+  }
+  
+  .grade-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 20px;
+    row-gap: 20px; 
+    column-gap: 20px; 
+    justify-items: center;
+    align-items: center;
+}
+
+.grade-card {
+    background-color: #e6f0ff;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    padding: 15px; 
+    gap: 15px; 
+}
+
+.grade-card img {
+    width: 80%;
+    height: 150px;
+}
+
+.grade-card .btnn {
+    background-color: #163763;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 15px; 
+    width: 100%;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.grade-card:hover {
+    transform: scale(1.03);
+}
+
+.grade-card p {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #1e4e9b;
+}
+
+  
+  .resource-buttons{
+    display: flex;
+    justify-content: flex-start; 
+    gap: 20px; 
+    background-color: #658cc2; 
+    height: 1.5in;
+    align-items: center; 
+    padding-left: 10px; 
+}
+
+.button {
+    background-color: #163763;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 12px 24px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #235caf;
+}
+
 
 
 
