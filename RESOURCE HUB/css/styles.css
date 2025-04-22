@@ -515,14 +515,14 @@ footer button {
 }
 
 /* Left Image */
-.left-image {
+.blog-left-image {
     flex: 1;
     align-self: stretch;
     display: flex;
     justify-content: center;
     align-items: center;
  }
-.left-image img {
+.blog-left-image img {
     height: 100%;
     width: 100%;
     border-radius: 10px;
@@ -640,7 +640,6 @@ footer button {
 .explore:hover {
     cursor: pointer;
 }
-
 
 /* grade levels css*/
 
