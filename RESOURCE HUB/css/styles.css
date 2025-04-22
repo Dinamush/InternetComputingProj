@@ -340,7 +340,7 @@ footer button {
     margin-top: 10px;
 }
 
-.read-more {
+.read-more-news {
     padding: 6px;
     color: #fff;
     text-decoration: none;
@@ -348,7 +348,7 @@ footer button {
     border-radius: 10px;
 }
 
-.read-more:hover {
+.read-more-news:hover {
     cursor: pointer;
 }
 
@@ -505,14 +505,14 @@ footer button {
 }
 
 /* Left Image */
-.left-image {
+.blog-left-image {
     flex: 1;
     align-self: stretch;
     display: flex;
     justify-content: center;
     align-items: center;
  }
-.left-image img {
+.blog-left-image img {
     height: 100%;
     width: 100%;
     border-radius: 10px;
@@ -521,7 +521,7 @@ footer button {
     justify-content: center;
 }
 
-/* Center Blog Card */
+/* Blog Card */
 .blog-card {
     background-color: #fff;
     padding: 1.5rem;
@@ -630,6 +630,4 @@ footer button {
 .explore:hover {
     cursor: pointer;
 }
-
-
 
