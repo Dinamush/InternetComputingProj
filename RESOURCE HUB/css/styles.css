@@ -350,7 +350,7 @@ footer button {
     margin-top: 10px;
 }
 
-.read-more {
+.read-more-news {
     padding: 6px;
     color: #fff;
     text-decoration: none;
@@ -358,7 +358,7 @@ footer button {
     border-radius: 10px;
 }
 
-.read-more:hover {
+.read-more-news:hover {
     cursor: pointer;
 }
 
