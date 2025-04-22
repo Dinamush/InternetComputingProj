@@ -15,6 +15,16 @@ header {
     padding: 10px 20px;
 }
 
+.btnn{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #2b4d8b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;}
+  
 h2{
     color: white;
 }
@@ -68,7 +78,7 @@ nav ul li input[type="search"] {
     color: white;
 }
 
-.welcome-text .btn {
+.welcome-text .btnn {
     display: inline-block;
     padding: 10px 20px;
     background-color: #2b4d8b;
@@ -159,7 +169,7 @@ nav ul li input[type="search"] {
     border-radius: 10px;
 }
 
-.syllabus-box .btn {
+.syllabus-box .btnn {
     margin-top: 10px;
     background-color: #2b4d8b;
     color: white;
@@ -224,73 +234,73 @@ footer button {
 }
 
 /* about css*/
-
-.about-hero {
+  
+  .about-hero {
     background-color: #658cc2;
     padding: 50px 20px;
     text-align: left;
-}
-
-.about-hero h1 {
+  }
+  
+  .about-hero h1 {
     font-size: 3rem;
     margin-bottom: 20px;
     color: #fff;
     text-align: center;
-}
-
-.about-hero p {
+  }
+  
+  .about-hero p {
     max-width: 800px;
     margin: 0 auto;
     color: #ffffff;
     font-weight: 600;
-}
-
-.about-info {
+  }
+  
+  .about-info {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 40px 20px;
     background-color: #e6f5f4;
-}
-
-.left-image, .right-box {
+  }
+  
+  .left-image, .right-box {
     flex: 1;
     margin: 10px;
     min-width: 300px;
-}
-
-.left-image img {
+  }
+  
+  .left-image img {
     width: 100%;
     height: auto;
     border-radius: 10px;
-}
-
-.initiative {
+  }
+  
+  .initiative {
     margin-top: 15px;
     background-color: white;
     padding: 15px;
     border-radius: 10px;
     box-shadow: 0 0 5px rgba(0,0,0,0.1);
-}
-
-.right-box {
+  }
+  
+  .right-box {
     background-color: rgb(234, 233, 240);
     padding: 10px;
     border-radius: 10px;
     box-shadow: 0 0 5px rgba(0,0,0,0.1);
-}
-
-.right-box h3 {
+  }
+  
+  .right-box h3 {
     font-size: 1.5rem;
     margin-bottom: 10px;
-}
-
-.right-box h4 {
+  }
+  
+  .right-box h4 {
     font-size: 1.2rem;
     margin-top: 20px;
-}
-
-.right-box button {
+  }
+  
+  .right-box button {
     background-color: #1e2d59;
     color: white;
     border: none;
@@ -298,23 +308,23 @@ footer button {
     margin-top: 20px;
     border-radius: 5px;
     cursor: pointer;
-}
-
-.about-gallery {
+  }
+  
+  .about-gallery {
     width: 100%;
-    height: 2in;
+    height: 2in; 
     overflow: hidden;
     margin: 0;
     padding-bottom: 30px;
     padding-top: 10px;
-}
-
-.about-gallery img {
+  }
+  
+  .about-gallery img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: cover; 
     display: block;
-}
+  }
 
 /*news css*/
 .news-hero {
@@ -340,7 +350,7 @@ footer button {
     margin-top: 10px;
 }
 
-.read-more-news {
+.read-more {
     padding: 6px;
     color: #fff;
     text-decoration: none;
@@ -348,7 +358,7 @@ footer button {
     border-radius: 10px;
 }
 
-.read-more-news:hover {
+.read-more:hover {
     cursor: pointer;
 }
 
@@ -505,14 +515,14 @@ footer button {
 }
 
 /* Left Image */
-.blog-left-image {
+.left-image {
     flex: 1;
     align-self: stretch;
     display: flex;
     justify-content: center;
     align-items: center;
  }
-.blog-left-image img {
+.left-image img {
     height: 100%;
     width: 100%;
     border-radius: 10px;
@@ -521,7 +531,7 @@ footer button {
     justify-content: center;
 }
 
-/* Blog Card */
+/* Center Blog Card */
 .blog-card {
     background-color: #fff;
     padding: 1.5rem;
@@ -630,4 +640,109 @@ footer button {
 .explore:hover {
     cursor: pointer;
 }
+
+
+/* grade levels css*/
+
+  .grade-description {
+    background-color: #658cc2;
+    padding: 30px 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    text-align: left; 
+  }
+  
+  .grade-description h1,
+  .grade-description p {
+    margin-left: 0;
+    max-width: none;
+    color: white;
+  }
+  
+  
+  .grade-header h1 {
+    color: white;
+    font-size: 2.5rem;
+  }
+  
+  .grade-header p {
+    color: #f0f0f0;
+    font-size: 1.1rem;
+  }
+  
+  .grade-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 20px;
+    row-gap: 20px; 
+    column-gap: 20px; 
+    justify-items: center;
+    align-items: center;
+}
+
+.grade-card {
+    background-color: #e6f0ff;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    padding: 15px; 
+    gap: 15px; 
+}
+
+.grade-card img {
+    width: 80%;
+    height: 150px;
+}
+
+.grade-card .btnn {
+    background-color: #163763;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 15px; 
+    width: 100%;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.grade-card:hover {
+    transform: scale(1.03);
+}
+
+.grade-card p {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #1e4e9b;
+}
+
+  
+  .resource-buttons{
+    display: flex;
+    justify-content: flex-start; 
+    gap: 20px; 
+    background-color: #658cc2; 
+    height: 1.5in;
+    align-items: center; 
+    padding-left: 10px; 
+}
+
+.button {
+    background-color: #163763;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 12px 24px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #235caf;
+}
+
+
+
 
