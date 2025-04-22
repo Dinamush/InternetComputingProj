@@ -488,21 +488,29 @@ footer button {
     background-color: #3a3a7a; 
 }
 
-
 /*blog css*/
-.blog-container {
+.blog-hero-container {
     display: flex;
     justify-content: center;
     align-items: flex-start;
     gap: 2rem;
     padding: 2rem;
-    background-color: #fff;
+    background-color: #e4f6f8;
     font-family: Arial, sans-serif;
+    border-bottom: 4px #5d6169 solid;
 }
 
 /* Left Image */
+.left-image {
+    flex: 1;
+    align-self: stretch;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
 .left-image img {
-    width: 450px;
+    height: 100%;
+    width: 100%;
     border-radius: 10px;
     flex: 1;
     display: flex;
@@ -510,11 +518,12 @@ footer button {
 }
 
 /* Center Blog Card */
-.center-card {
-    background-color: #e4f6f8;
+.blog-card {
+    background-color: #fff;
     padding: 1.5rem;
     border-radius: 10px;
-    max-width: 400px;
+    max-width: 450px;
+    height: 100%;
     text-align: center;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     flex: 1;
@@ -526,11 +535,11 @@ footer button {
     margin-bottom: 1rem;
 }
 
-.center-card h3 {
+.blog-card h3 {
     margin: 0.5rem 0;
 }
 
-.center-card p {
+.blog-card p {
     font-size: 0.9rem;
     color: #555;
 }
@@ -567,6 +576,54 @@ footer button {
 }
 
 .read-more-blog:hover {
+    cursor: pointer;
+}
+
+.blog-title {
+    background-color: #658cc2;
+    padding: 50px 20px;
+    text-align: left;
+}
+
+.blog-title h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.blog-content-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 20px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    background-color: #e4f6f8;
+    font-family: Arial, sans-serif;
+}
+
+.top-articles {
+    font-size: 55px;
+    text-align: center;
+    margin: 30px;
+}
+
+.explore {
+    font-size: 1.6rem;
+    padding: 15px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #054bb4;
+    border-radius: 10px;
+    display: block;
+    width: fit-content;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: 40px;
+}
+
+.explore:hover {
     cursor: pointer;
 }
 
