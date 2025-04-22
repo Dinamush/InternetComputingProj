@@ -234,73 +234,73 @@ footer button {
 }
 
 /* about css*/
-
-.about-hero {
+  
+  .about-hero {
     background-color: #658cc2;
     padding: 50px 20px;
     text-align: left;
-}
-
-.about-hero h1 {
+  }
+  
+  .about-hero h1 {
     font-size: 3rem;
     margin-bottom: 20px;
     color: #fff;
     text-align: center;
-}
-
-.about-hero p {
+  }
+  
+  .about-hero p {
     max-width: 800px;
     margin: 0 auto;
     color: #ffffff;
     font-weight: 600;
-}
-
-.about-info {
+  }
+  
+  .about-info {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 40px 20px;
     background-color: #e6f5f4;
-}
-
-.left-image, .right-box {
+  }
+  
+  .left-image, .right-box {
     flex: 1;
     margin: 10px;
     min-width: 300px;
-}
-
-.left-image img {
+  }
+  
+  .left-image img {
     width: 100%;
     height: auto;
     border-radius: 10px;
-}
-
-.initiative {
+  }
+  
+  .initiative {
     margin-top: 15px;
     background-color: white;
     padding: 15px;
     border-radius: 10px;
     box-shadow: 0 0 5px rgba(0,0,0,0.1);
-}
-
-.right-box {
+  }
+  
+  .right-box {
     background-color: rgb(234, 233, 240);
     padding: 10px;
     border-radius: 10px;
     box-shadow: 0 0 5px rgba(0,0,0,0.1);
-}
-
-.right-box h3 {
+  }
+  
+  .right-box h3 {
     font-size: 1.5rem;
     margin-bottom: 10px;
-}
-
-.right-box h4 {
+  }
+  
+  .right-box h4 {
     font-size: 1.2rem;
     margin-top: 20px;
-}
-
-.right-box button {
+  }
+  
+  .right-box button {
     background-color: #1e2d59;
     color: white;
     border: none;
@@ -308,23 +308,23 @@ footer button {
     margin-top: 20px;
     border-radius: 5px;
     cursor: pointer;
-}
-
-.about-gallery {
+  }
+  
+  .about-gallery {
     width: 100%;
-    height: 2in;
+    height: 2in; 
     overflow: hidden;
     margin: 0;
     padding-bottom: 30px;
     padding-top: 10px;
-}
-
-.about-gallery img {
+  }
+  
+  .about-gallery img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: cover; 
     display: block;
-}
+  }
 
 /*news css*/
 .news-hero {
