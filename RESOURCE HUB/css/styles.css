@@ -884,5 +884,42 @@ h2 {
     cursor: pointer;
 }
 
+/* Syllabus css*/
+.syllabus-list {
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .syllabus-item {
+    background-color: white;
+    border-left: 6px solid #1f3f81;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .syllabus-item h3 {
+    margin-top: 0;
+    color: #1f3f81;
+  }
+  
+  .csecdownload-btn {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #2d3f77;
+    color: white;
+    text-decoration: none;
+    padding: 10px 16px;
+    border-radius: 6px;
+  }
+  
+  .csecdownload-btn:hover {
+    background-color: #3c4e8f;
+  }
+  
 
 
