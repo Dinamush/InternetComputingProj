@@ -884,6 +884,7 @@ h2 {
     cursor: pointer;
 }
 
+
 /* Syllabus css*/
 .syllabus-list {
     padding: 40px 20px;
@@ -920,6 +921,8 @@ h2 {
   .csecdownload-btn:hover {
     background-color: #3c4e8f;
   }
+
+  
 
 /* homepage subpages*/
 .content-section {
