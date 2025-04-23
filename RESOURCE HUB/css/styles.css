@@ -974,6 +974,103 @@ h2 {
     background-color: #054bb4;
   }
 
+/* grade levels subpages css*/
+
+  .grade11-header-img {
+    height: 2in;
+    width: 100%;
+    background: url('../images/grade11.jpg') center/cover no-repeat;
+    margin-top: 60px; 
+  }
+
+  .grade10-header-img {
+    height: 2in;
+    width: 100%;
+    background: url('../images/grade10.jpg') center/cover no-repeat;
+    margin-top: 60px; 
+  }
+
+  .grade9-header-img {
+    height: 2in;
+    width: 100%;
+    background: url('../images/grade9.jpg') center/cover no-repeat;
+    margin-top: 60px; 
+  }
+
+  .grade8-header-img {
+    height: 2in;
+    width: 100%;
+    background: url('../images/grade8.jpg') center/cover no-repeat;
+    margin-top: 60px; 
+  }
+
+  .grade7-header-img {
+    height: 2in;
+    width: 100%;
+    background: url('../images/grade7.jpg') center/cover no-repeat;
+    margin-top: 60px; 
+  }
+
+  .grade6-header-img {
+    height: 2in;
+    width: 100%;
+    background: url('../images/grade6.jpg') center/cover no-repeat;
+    margin-top: 60px; 
+  }
+
+  .grade5-header-img {
+    height: 2in;
+    width: 100%;
+    background: url('../images/grade5.jpg') center/cover no-repeat;
+    margin-top: 60px; 
+  }
+
+  .gradetransition-header-img {
+    height: 2in;
+    width: 100%;
+    background: url('../images/transitionclasses.jpg') center/cover no-repeat;
+    margin-top: 60px; 
+  }
+  
+  
+  .gradee-section {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #e6f0ff;
+  }
+  
+  .gradee-section h1 {
+    color: #163763;
+    margin-bottom: 10px;
+  }
+  
+  .gradee-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+    margin-top: 30px;
+  }
+  
+  .gradee-card {
+    background: white;
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .gradee-card h3 {
+    margin-bottom: 10px;
+    color: #163763;
+  }
+  
+  .gradee-card p {
+    font-size: 14px;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+
+
   
 
 
