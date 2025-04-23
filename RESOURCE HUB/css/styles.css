@@ -743,5 +743,146 @@ footer button {
 }
 
 
+/* states page*/
+
+main {
+    background-color: #e6f7ff;
+    padding: 2rem 1rem;
+    font-family: 'Segoe UI', sans-serif;
+    color: #1a2e63;
+    text-align: center;
+}
+.stats_title {
+    background-color: #658cc2;
+    padding: 50px 20px;
+    text-align: left;
+}
+.stats_title h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+/* Section Headers */
+h1, h2 {
+    margin-bottom: 1rem;
+ 
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    font-weight: 600;
+    color:#1a2e63;
+
+}
+
+/* Quick Stats Section */
+.quick-stats-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.stat-card {
+    background-color: #004aad;
+    color: white;
+    padding: 1rem;
+    width: 180px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.stat-card p {
+    margin: 0.5rem 0;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.stat-card small {
+    background-color: #1a2e63;
+    padding: 0.3rem 0.5rem;
+    border-radius: 5px;
+    font-size: 0.85rem;
+}
+
+/* Data Visualization Section */
+.data-visualization {
+    margin-top: 3rem;
+    color: #1a2e63;
+
+}
+
+.charts-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+.chart {
+    width: 300px;
+    height: 200px;
+    background-color:  #2e5caf;
+    border-radius: 12px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 0.95rem;
+}
+
+/* Report Download Section */
+.report-section {
+    background-color: #658CC2;
+    color: white;
+    padding: 2rem 1rem;
+    margin-top: 3rem;
+}
+
+.report-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+.report-box {
+    text-align: center;
+    width: 250px;
+}
+
+.download-btn {
+    margin-top: 0.8rem;
+    padding: 0.5rem 1rem;
+    background-color: #0a2351;
+    color: #fdfdfd;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.download-btn:hover {
+    background-color: #dbe9ff;
+    cursor: pointer;
+}
+
 
 
