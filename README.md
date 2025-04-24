@@ -5,10 +5,11 @@ A comprehensive web platform for the Ministry of Education to provide educationa
 ## Project Overview
 
 The MOE Learning Resource Hub is a centralized platform designed to:
-- Provide easy access to educational materials
-- Share news and updates about the education sector
-- Offer grade-specific resources and syllabuses
-- Support both students and teachers with learning materials
+- Provide easy access to educational materials.
+- Share news and updates about the education sector.
+- Offer grade-specific resources and syllabuses.
+- Support both students and teachers with learning materials.
+- Provide dedicated Help and FAQ pages with updated navigation, links, and search functionality.
 
 ## Features
 
@@ -29,9 +30,10 @@ The MOE Learning Resource Hub is a centralized platform designed to:
   - Ministry announcements
 
 - **Support Features**
-  - FAQ section
-  - Help Center
-  - Contact information
+  - FAQ page with answers to common questions.
+  - Help Center with troubleshooting and contact information.
+  - Updated navigation and link structure across all pages.
+  - Functional search that directs users to results.
 
 ## File Structure
 
@@ -45,12 +47,27 @@ RESOURCE HUB/
 ├── about.html
 ├── blog.html
 ├── blogarticle.html
+├── capesyllabus.html
 ├── contact.html
 ├── faq.html
 ├── gradelevels.html
-├── help.html
+├── grade5.html
+├── grade6.html
+├── grade7.html
+├── grade8.html
+├── grade9.html
+├── grade10.html
+├── grade11.html
 ├── homepage.html
-└── news.html
+├── help.html
+├── news.html
+├── newsarticle.html
+├── pastpapers.html
+├── policies.html
+├── resources.html
+├── textbooks.html
+├── transitionclasses.html
+└── worksheets.html
 ```
 
 ## Technical Stack

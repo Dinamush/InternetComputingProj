@@ -29,3 +29,41 @@ function contactRedirect() {
   window.location.href = 'contact.html';
 }
 
+function searchResources(query) {
+  // Get all searchable content
+  const resources = document.querySelectorAll('.resource-item');
+  query = query.toLowerCase();
+  
+  resources.forEach(item => {
+    const title = item.querySelector('h3').textContent.toLowerCase();
+    const description = item.querySelector('p').textContent.toLowerCase();
+    
+    if (title.includes(query) || description.includes(query)) {
+      item.style.display = 'block';
+    } else {
+      item.style.display = 'none';
+    }
+  });
+}
+
+// Add event listener to search input
+document.querySelector('input[type="search"]').addEventListener('keyup', (e) => {
+  searchResources(e.target.value);
+});
+
+function performSearch(query) {
+    const searchResults = [];
+    const searchableContent = document.querySelectorAll('.searchable');
+    
+    searchableContent.forEach(content => {
+        if (content.innerText.toLowerCase().includes(query.toLowerCase())) {
+            searchResults.push({
+                title: content.querySelector('h3')?.innerText || '',
+                description: content.querySelector('p')?.innerText || '',
+                link: content.querySelector('a')?.href || ''
+            });
+        }
+    });
+    
+    displaySearchResults(searchResults);
+}

@@ -1,0 +1,29 @@
+<div class="document-viewer" role="document">
+  <div class="viewer-toolbar">
+    <button onclick="zoomIn()" aria-label="Zoom in">+</button>
+    <button onclick="zoomOut()" aria-label="Zoom out">-</button>
+    <button onclick="toggleReaderMode()" aria-label="Toggle reader mode">Reader Mode</button>
+  </div>
+  <div class="viewer-content" id="viewerContent">
+    <!-- Document content will be loaded here -->
+  </div>
+</div>
+
+<script>
+function toggleReaderMode() {
+  const content = document.getElementById('viewerContent');
+  content.classList.toggle('reader-mode');
+}
+
+function zoomIn() {
+  const content = document.getElementById('viewerContent');
+  const currentSize = parseInt(getComputedStyle(content).fontSize);
+  content.style.fontSize = (currentSize + 2) + 'px';
+}
+
+function zoomOut() {
+  const content = document.getElementById('viewerContent');
+  const currentSize = parseInt(getComputedStyle(content).fontSize);
+  content.style.fontSize = (currentSize - 2) + 'px';
+}
+</script>
