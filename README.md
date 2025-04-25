@@ -64,10 +64,4 @@ The MOE Learning Resource Hub is a centralized platform designed to:
 4. Push to the branch
 5. Create a Pull Request
 
-## Contact
-
-For support or inquiries:
-- Email: support@moe.gov.gy
-- Phone: (592) 226-3094
-- Hours: Monday-Friday, 8:00 AM - 4:30 PM
 
