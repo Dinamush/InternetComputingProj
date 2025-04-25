@@ -1,6 +1,30 @@
 // Enhanced search data structure with more content types
 const searchableContent = {
     resources: [
+        { 
+            title: 'CSEC Mathematics', 
+            type: 'syllabus', 
+            url: 'documents/syllabuses/csec_mathematics.pdf', 
+            keywords: ['mathematics', 'csec', 'syllabus'] 
+        },
+        { 
+            title: 'CAPE Physics', 
+            type: 'syllabus', 
+            url: 'documents/syllabuses/cape_physics.pdf', 
+            keywords: ['physics', 'cape', 'syllabus'] 
+        },
+        { 
+            title: 'Grade 5 Math Worksheet', 
+            type: 'worksheet', 
+            url: 'documents/worksheets/grade5_math.pdf', 
+            keywords: ['grade 5', 'worksheet', 'mathematics'] 
+        },
+        { 
+            title: 'Education Statistics 2024', 
+            type: 'report', 
+            url: 'documents/reports/education_statistics_2024.pdf', 
+            keywords: ['statistics', 'report', '2024'] 
+        },
         { title: 'CSEC Mathematics', type: 'textbook', url: 'textbooks.html#csec-math', keywords: ['mathematics', 'csec', 'textbook'] },
         { title: 'CAPE Physics', type: 'textbook', url: 'textbooks.html#cape-physics', keywords: ['physics', 'cape', 'textbook'] },
         { title: 'Grade 10 Worksheets', type: 'worksheet', url: 'worksheets.html#grade10', keywords: ['grade 10', 'worksheet', 'practice'] },
