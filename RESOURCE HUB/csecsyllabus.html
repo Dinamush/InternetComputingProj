@@ -24,7 +24,15 @@
             <li><a href="statistics.html">Statistics</a></li>
             <li><a href="news.html">News</a></li>
             <li><a href="resources.html">Resources</a></li>
-            <li><input type="search" placeholder="Search..." /></li>
+            <li class="search-container">
+                <input 
+                    type="search" 
+                    placeholder="Search..." 
+                    aria-label="Search website"
+                    role="searchbox"
+                />
+                <div id="search-suggestions"></div>
+            </li>
         </ul>
     </nav>
 </header>

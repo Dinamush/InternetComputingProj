@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search Results - MOE Learning Resource Hub</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="javascript/scripts.js" defer></script>
+    <script src="javascript/accessibility.js" defer></script>
+    <script src="javascript/search.js" defer></script>
+    <script src="javascript/auth.js" defer></script>
+</head>
+<body>
+    <div class="font-size-controls">
+        <button onclick="increaseFontSize()">A+</button>
+        <button onclick="decreaseFontSize()">A-</button>
+        <button onclick="toggleHighContrast()">High Contrast</button>
+    </div>
+    <header>
+        <!-- ...existing header code... -->
+    </header>
+
+    <main>
+        <section class="search-results-section">
+            <h1>Search Results</h1>
+            <p id="search-query"></p>
+            <div id="search-results-container"></div>
+            <div id="no-results" style="display: none;">
+                <p>No results found. Try different keywords or browse our categories below:</p>
+                <div class="suggestion-links">
+                    <a href="textbooks.html">Textbooks</a>
+                    <a href="worksheets.html">Worksheets</a>
+                    <a href="pastpapers.html">Past Papers</a>
+                    <a href="resources.html">All Resources</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer-bar">
+        <!-- ...existing footer code... -->
+    </footer>
+</body>
+</html>

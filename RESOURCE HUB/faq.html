@@ -6,6 +6,9 @@
     <title>Frequently Asked Questions</title>
     <link rel="stylesheet" href="css/styles.css" />
     <script src="javascript/scripts.js" defer></script>
+    <script src="javascript/accessibility.js" defer></script>
+    <script src="javascript/search.js" defer></script>
+    <script src="javascript/auth.js" defer></script>
 </head>
 
 <body>
@@ -24,7 +27,15 @@
             <li><a href="statistics.html">Statistics</a></li>
             <li><a href="news.html">News</a></li>
             <li><a href="resources.html">Resources</a></li>
-            <li><input type="search" placeholder="Search..." /></li>
+            <li class="search-container">
+                <input 
+                    type="search" 
+                    placeholder="Search..." 
+                    aria-label="Search website"
+                    role="searchbox"
+                />
+                <div id="search-suggestions"></div>
+            </li>
         </ul>
     </nav>
 </header>
