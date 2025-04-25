@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="javascript/scripts.js" defer></script>
+    <script src="javascript/accessibility.js" defer></script>
+    <script src="javascript/search.js" defer></script>
+    <script src="javascript/auth.js" defer></script>
+  </head>
+  <body>
+    <div class="font-size-controls">
+      <button onclick="increaseFontSize()">A+</button>
+      <button onclick="decreaseFontSize()">A-</button>
+      <button onclick="toggleHighContrast()">High Contrast</button>
+    </div>
+    <header>
+      <div class="logo">
+        <img src="images/moelogo.jpg" alt="MOE Logo" />
+      </div>
+      <nav>
+        <ul>
+          <li><a href="homepage.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="policies.html">Policies</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="gradelevels.html">Grade Levels</a></li>
+          <li><a href="statistics.html">Statistics</a></li>
+          <li><a href="news.html">News</a></li>
+          <li><a href="resources.html">Resources</a></li>
+          <li class="search-container">
+            <input 
+                type="search" 
+                placeholder="Search..." 
+                aria-label="Search website"
+                role="searchbox"
+            />
+            <div id="search-suggestions"></div>
+          </li>
+        </ul>
+      </nav>
+    </header>
+ <main>
+      <section class="about-hero">
+        <h1>About Us !</h1>
+        <p>
+          This digital platform was created to simplify access to essential
+          educational materials and resources. As part of our broader digital
+          transformation initiative, it supports students, teachers, and parents
+          by offering centralized, easy-to-navigate content including
+          syllabuses, textbooks, worksheets, announcements, and official memos.
+          It’s designed with accessibility and user-friendliness in mind,
+          ensuring that everyone can find what they need when they need it.
+        </p>
+      </section>
+
+      <section class="about-info">
+        <div class="left-image">
+          <img src="images/presentation.jpg" alt="Presentation Image" />
+          <div class="initiative">
+            <h3>Why this initiative?</h3>
+            <p>
+              The Ministry of Education plays a central role in shaping the
+              nation’s education system. From early childhood to secondary
+              schooling, the Ministry sets policies, develops curricula,
+              provides learning materials, and ensures that all students have
+              access to quality education. Through oversight and collaboration
+              with institutions, we strive to raise academic standards and
+              foster lifelong learning.
+            </p>
+          </div>
+        </div>
+
+        <div class="right-box">
+          <h3>Missions and Goals</h3>
+          <h4>Mission</h4>
+          <p>
+            To provide equitable, inclusive, and high-quality education that
+            empowers all citizens to reach their full potential and contribute
+            meaningfully to national development.
+          </p>
+          <h4>Goals</h4>
+          <p>
+            A nation where every learner has access to transformative education
+            in a supportive and innovative learning environment.
+          </p>
+          <p>For more information:</p>
+          <button onclick="contactRedirect()">Contact Us</button>
+        </div>
+      </section>
+
+      <section class="about-gallery">
+        <img src="images/banner.jpg" alt="Group Photo" />
+      </section>
+    </main>
+  
+    <footer class="footer-bar">
+      <div class="footer-logo">
+        <img src="images/moelogo.jpg" alt="MOE Logo" />
+      </div>
+      <ul class="footer-links">
+        <li><a href="help.html">Help</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="policies.html">Privacy Policy</a></li>
+      </ul>
+      <form>
+        <input type="email" placeholder="Insert your email address here" />
+        <button type="submit">Learn More</button>
+      </form>
+    </footer>
+  </body>
+</html>
