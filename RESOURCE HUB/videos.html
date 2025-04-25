@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educational Videos | MOE Resource Hub</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="javascript/scripts.js" defer></script>
+    <script src="javascript/accessibility.js" defer></script>
+    <script src="javascript/search.js" defer></script>
+    <script src="javascript/video-player.js" defer></script>
+</head>
+<body>
+    <!-- ...existing header code... -->
+
+    <main>
+        <section class="video-hero">
+            <h1>Educational Videos</h1>
+            <p>Access our collection of educational content, lectures, and tutorials</p>
+        </section>
+
+        <section class="video-categories">
+            <div class="category-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="mathematics">Mathematics</button>
+                <button class="filter-btn" data-filter="science">Science</button>
+                <button class="filter-btn" data-filter="english">English</button>
+                <button class="filter-btn" data-filter="tutorial">Tutorials</button>
+            </div>
+
+            <div class="video-grid">
+                <!-- Mathematics Video -->
+                <div class="video-card" data-category="mathematics">
+                    <div class="video-container">
+                        <iframe 
+                            src="https://www.youtube.com/embed/example1" 
+                            title="Mathematics Lesson"
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                    <h3>CSEC Mathematics: Algebra Basics</h3>
+                    <p>Duration: 15:30</p>
+                </div>
+
+                <!-- Science Video -->
+                <div class="video-card" data-category="science">
+                    <div class="video-container">
+                        <iframe 
+                            src="https://www.youtube.com/embed/example2" 
+                            title="Science Lesson"
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                    <h3>Biology: Cell Structure</h3>
+                    <p>Duration: 12:45</p>
+                </div>
+
+                <!-- Tutorial Video -->
+                <div class="video-card" data-category="tutorial">
+                    <div class="video-container">
+                        <video controls preload="metadata">
+                            <source src="videos/tutorial.mp4" type="video/mp4">
+                            <track kind="captions" src="videos/captions/tutorial-en.vtt" srclang="en" label="English">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <h3>How to Use the Resource Hub</h3>
+                    <p>Duration: 5:20</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="video-playlist">
+            <h2>Featured Playlists</h2>
+            <div class="playlist-grid">
+                <div class="playlist-card">
+                    <h3>CSEC Mathematics 2024</h3>
+                    <p>12 videos</p>
+                    <a href="#" class="btn">View Playlist</a>
+                </div>
+                <div class="playlist-card">
+                    <h3>CAPE Physics Series</h3>
+                    <p>8 videos</p>
+                    <a href="#" class="btn">View Playlist</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ...existing footer code... -->
+</body>
+</html>

@@ -232,6 +232,20 @@ nav ul li input[type="search"]:focus {
     text-align: center;
 }
 
+.teaching-header {
+    color: #ffffff !important;
+    font-size: 2.2rem;
+    margin-bottom: 2rem;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+    font-weight: bold;
+}
+
+/* Ensure contrast in high contrast mode */
+body.high-contrast .teaching-header {
+    color: #ffff00 !important;
+    text-shadow: none !important;
+}
+
 .syllabus-container {
     display: flex;
     justify-content: space-around;
@@ -740,6 +754,50 @@ footer button {
 
 .explore:hover {
     cursor: pointer;
+}
+
+/* Blog Video Feature Styles */
+.video-feature {
+    margin: 2rem 0;
+    padding: 1rem;
+    background: #f5f5f5;
+    border-radius: 8px;
+}
+
+.video-feature h2 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+    margin-bottom: 1rem;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+}
+
+.video-caption {
+    text-align: center;
+    color: #666;
+    font-style: italic;
+    margin-top: 0.5rem;
+}
+
+/* High contrast mode addition */
+body.high-contrast .video-feature {
+    background: #000;
+    border: 2px solid #fff;
 }
 
 /* grade levels css*/
@@ -1874,6 +1932,119 @@ body.high-contrast .call-us {
     padding: 1rem;
     background: #f5f5f5;
     border-bottom: 1px solid #ddd;
+}
+
+/* Video Page Styles */
+.video-hero {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 3rem 2rem;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+
+.video-categories {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+.category-filters {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.filter-btn {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 20px;
+    background: #eee;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.filter-btn.active {
+    background: var(--primary-color);
+    color: white;
+}
+
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.video-card {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe,
+.video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.video-card h3 {
+    padding: 1rem;
+    margin: 0;
+    color: var(--primary-color);
+}
+
+.video-card p {
+    padding: 0 1rem 1rem;
+    color: #666;
+    margin: 0;
+}
+
+.playlist-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.playlist-card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+/* High contrast mode additions */
+body.high-contrast .video-card,
+body.high-contrast .playlist-card {
+    background: #333;
+    border: 2px solid #fff;
+}
+
+body.high-contrast .filter-btn {
+    background: #333;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+body.high-contrast .filter-btn.active {
+    background: #fff;
+    color: #000;
 }
 
 
