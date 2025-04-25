@@ -35,40 +35,6 @@ The MOE Learning Resource Hub is a centralized platform designed to:
   - Updated navigation and link structure across all pages.
   - Functional search that directs users to results.
 
-## File Structure
-
-```
-RESOURCE HUB/
-├── css/
-│   └── styles.css
-├── javascript/
-│   └── scripts.js
-├── images/
-├── about.html
-├── blog.html
-├── blogarticle.html
-├── capesyllabus.html
-├── contact.html
-├── faq.html
-├── gradelevels.html
-├── grade5.html
-├── grade6.html
-├── grade7.html
-├── grade8.html
-├── grade9.html
-├── grade10.html
-├── grade11.html
-├── homepage.html
-├── help.html
-├── news.html
-├── newsarticle.html
-├── pastpapers.html
-├── policies.html
-├── resources.html
-├── textbooks.html
-├── transitionclasses.html
-└── worksheets.html
-```
 
 ## Technical Stack
 
